@@ -23,9 +23,17 @@ body {
 }
 
 button {
-    color: white;
+    background-color: yellow;
     font-size: medium;
     font-weight: 700;
+
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: #ffffff20 ;
+    transition: 0.7s;
 }
 .dough {
     background-color: burlywood;
